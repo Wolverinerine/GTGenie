@@ -14,7 +14,7 @@ HMDAD/microbe_to_taxon: the taxon of microbes which is used to create microbe se
 get_text_embedding.py: get text features accroding to 5-fold cross-validation.
 # Run steps
 1. Download biobert_v1.1 from (https://huggingface.co/dmis-lab/biobert-v1.1/tree/main) --- files "pytorch_model.bin", "config.json", and "vocab.txt" are required.
-2. Generate text embedding using all_text.csv for each dataset.
+2. Generate text embedding using all_text.csv for each dataset offline.
 3. Run main.py to train the model using 5-fold cross-validation.
 # Requirements
 * Pytorch 1.8.1
