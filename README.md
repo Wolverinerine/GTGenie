@@ -11,7 +11,6 @@ HMDAD/M_SSM: microbe semantic similarity.
 HMDAD/all_text: text description about disease-microbe associations.  
 HMDAD/microbe_to_taxon: the taxon of microbes which is used to create microbe semantic similarity.  
 # Text_encoding description
-torch_encoding.py: generate text features offline.  
 get_text_embedding.py: get text features accroding to 5-fold cross-validation.
 # Run steps
 1. Download biobert_v1.1 from (https://huggingface.co/dmis-lab/biobert-v1.1/tree/main) --- files "pytorch_model.bin", "config.json", and "vocab.txt" are required.
